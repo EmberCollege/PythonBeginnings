@@ -1,5 +1,6 @@
 
 students = []
+scores = []
 
 while True:
     try:
@@ -19,6 +20,11 @@ for student in range(0,noStudents):
             print("ITS NO USE HIDING GIVE ME THEIR NAME BUTTFRICK ")
         else:
             students.append(name)
+        if score =="":
+            print("SCORE THEM IDIOT OR ILL SKIN YOU ALIVE ")
+        else:
+            scores.append(score)
             break
 
 print(students)
+print(scores)

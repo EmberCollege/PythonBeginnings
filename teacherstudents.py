@@ -1,17 +1,24 @@
-noStudents = input("Enter how many students there are")
-studentArray = []
+
+students = []
 
 while True:
     try:
+        noStudents = input("HOW MANY FRICKIN STUDENTS ARE IN YOUR BASEMENT ")
         noStudents = int(noStudents)
-
-        for s in range(noStudents):
-            name = input("What is their name?")
-            score = input("What did they score?")
-            studentArray.append(name,score)
         break
     except:
-        noStudents = input("Please enter a number!")
+        noStudents = input("EnTER a NUmBEr IdiOT ")
         break
 
-    
+for student in range(0,noStudents):
+    while True:
+        name = input("Name IDIOT ")
+        score = input("SCORE DUMMY ")
+
+        if name =="":
+            print("ITS NO USE HIDING GIVE ME THEIR NAME BUTTFRICK ")
+        else:
+            students.append(name)
+            break
+
+print(students)

@@ -20,7 +20,7 @@ for student in range(0,noStudents):
             students.append(name)
             break
     while True:
-        score = input("WHAT SCORE ENTER OR I SKIN YOU ALIVE ")
+        score = input("WHAT SCORE ENTER OR I SKIN YOU ALIVE ") # Asks to enter a score
         try:
             score = int(score)
         except:

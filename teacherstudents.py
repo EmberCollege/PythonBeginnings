@@ -1,4 +1,3 @@
-
 students = []
 scores = []
 
@@ -14,17 +13,18 @@ while True:
 for student in range(0,noStudents):
     while True:
         name = input("Name IDIOT ")
-        score = input("SCORE DUMMY ")
 
         if name =="":
             print("ITS NO USE HIDING GIVE ME THEIR NAME BUTTFRICK ")
         else:
             students.append(name)
-        if score =="":
-            print("SCORE THEM IDIOT OR ILL SKIN YOU ALIVE ")
-        else:
-            scores.append(score)
             break
+    while True:
+        score = input("WHAT SCORE ENTER OR I SKIN YOU ALIVE ")
+        try:
+            score = int(score)
+        except:
+            score = input("IM GETTING MY KNIFE TO SKIN YOU ALIVE")
+
 
 print(students)
-print(scores)
